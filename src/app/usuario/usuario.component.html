@@ -1,0 +1,24 @@
+
+<h3></h3>
+ <table class="tblUsuario">
+  <tr>
+    <th>Nombre</th>
+    <th>Nickname</th>
+    <th>Edad</th>
+    <th>Fecha</th>
+  </tr>
+  <tbody>
+    <tr>
+      <td>{{name | uppercase}} {{ lastName }}</td>
+      <td>{{ nickName }}</td>
+      <td>{{ age }}</td>
+      <td>{{ fecha | date: 'shortDate'}}</td>
+    </tr>
+  </tbody>
+ </table>
+
+
+
+ <p>
+   {{direccion.calle}}
+ </p>
